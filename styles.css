@@ -60,17 +60,19 @@ body {
 
 .skills-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
 .skill-item {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .skill-item img {
     width: 150px;
+    flex-shrink: 0;
 }
 
 .skill-bar {
