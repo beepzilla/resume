@@ -25,10 +25,9 @@ body {
 .header img {
     border-radius: 15px;
     width: 150px;
-    height: auto; /* Ensure it keeps the aspect ratio */
-    object-fit: cover; /* Ensure the image covers the designated area */
+    height: auto;
+    object-fit: cover;
 }
-
 
 .header h1 {
     margin: 20px 0 10px 0;
@@ -59,23 +58,16 @@ body {
     padding-bottom: 10px;
 }
 
-.skills-list, .certificates-list, .education-list, .interests-list {
-    list-style: none;
-    padding: 0;
+.skills-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
-.skills-list .skill-item, .certificates-list li, .education-list li, .interests-list li {
-    margin-bottom: 10px;
+.skill-item {
+    width: 100%;
     display: flex;
     align-items: center;
-    width: 45%;
-    margin-right: 5%;
-}
-
-.skills-list .skill-item {
-    width: 100%;
     margin-bottom: 15px;
 }
 
