@@ -25,8 +25,10 @@ body {
 .header img {
     border-radius: 15px;
     width: 150px;
-    height: auto;
+    height: auto; /* Ensure it keeps the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the designated area */
 }
+
 
 .header h1 {
     margin: 20px 0 10px 0;
